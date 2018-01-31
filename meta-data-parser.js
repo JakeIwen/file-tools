@@ -1,7 +1,7 @@
 
 var fs = require('fs-extra');
 
-const DIRECTORY = '../slumberland/furniture/departments'
+const DIRECTORY = '../'
 const TAG_NAMES = ["title", "description", "keywords"]
 const WRITE_FILE_NAME = "result.txt"
 
