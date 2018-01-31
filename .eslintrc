@@ -1,0 +1,24 @@
+{
+  # "extends": "react-app",
+   "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+  "rules": {
+    "no-restricted-globals": ["off", "location"],
+    'no-unused-expressions': ['off', {
+      allowShortCircuit: false,
+      allowTernary: false,
+      allowTaggedTemplates: false,
+    }],
+    "react/no-unused-state": 0
+  }
+  # "settings": {
+  #   "react": {
+  #     "version": "15.6.2"
+  #   }
+  # }
+}
